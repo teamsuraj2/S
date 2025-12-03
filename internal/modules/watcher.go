@@ -117,7 +117,7 @@ func handleParticipantUpdate(p *telegram.ParticipantUpdate) error {
 	}
 
 	// If main bot is demoted → leave
-	if p.IsDemoted() {
+	/*if p.IsDemoted() {
 		if p.UserID() == core.BUser.ID {
 			core.DeleteRoom(chatID)
 			core.DeleteChatState(chatID)
@@ -127,7 +127,7 @@ func handleParticipantUpdate(p *telegram.ParticipantUpdate) error {
 			return nil
 		}
 		utils.RemoveChatAdmin(p.Client, chatID, p.UserID())
-	}
+	}*/
 
 	// On Promotion → Update cache
 	if p.IsPromoted() {
