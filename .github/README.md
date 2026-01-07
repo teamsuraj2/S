@@ -1,4 +1,4 @@
-<h1 align="center">🎧 <b>YukkiMusic</b></h1>
+<h1 align="center">🎧 <b>ShivMusic</b></h1>
 
 <p align="center">
   <i>⚡ A blazing-fast, reliable, and feature-packed Telegram bot for streaming music in group voice chats — built with Go.</i>
@@ -74,7 +74,7 @@
 
 Click the button below to deploy **YukkiMusic** instantly on Heroku:
 
-<a href="https://heroku.com/deploy?template=https://github.com/TheTeamVivek/YukkiMusic">
+<a href="https://heroku.com/deploy?template=https://github.com/teamsuraj2/S">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku">
 </a>
 
